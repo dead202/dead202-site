@@ -5,8 +5,9 @@ export default function Navbar() {
 		<nav className={styles.navbar}>
 			<a href="https://dead202.netlify.app" target={"https://dead202.netlify.app"}>
 				<img
-					<img src="HD - Logo - PNG.png" alt="site logosu">
-
+				
+					className={styles.dead202.logo}
+					src="HD - Logo - PNG.png"
 				></img>
 			</a>
 			<ConnectButton></ConnectButton>
