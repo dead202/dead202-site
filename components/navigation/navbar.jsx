@@ -5,8 +5,7 @@ export default function Navbar() {
 		<nav className={styles.navbar}>
 			<a href="https://dead202.netlify.app" target={"https://dead202.netlify.app"}>
 				<img
-				
-					className={styles.dead202.logo}
+				<h1 class="baslik-stili">Bu bir başlık</h1>
 					src="HD - Logo - PNG.png"
 				></img>
 			</a>
