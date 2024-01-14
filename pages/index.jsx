@@ -1,10 +1,4 @@
-import styles from "../styles/Home.module.css";
-
+// src/pages/index.js
 export default function Home() {
-  return (
-    <div>
-      <main className={styles.main}>
-      </main>
-    </div>
-  );
+  return <h1>Welcome to My Blog</h1>;
 }
