@@ -1,0 +1,33 @@
+/* Navbar.module.css */
+
+.navbar {
+  background-color: #333; /* Navbar'ın arka plan rengi */
+  padding: 10px; /* Navbar içeriği ile sınırlar arasındaki boşluk */
+  display: flex;
+  justify-content: space-between; /* Navbar içindeki öğeleri sağa ve sola yayma */
+  align-items: center; /* Navbar içindeki öğeleri dikey ortalamak */
+}
+
+.logo {
+  width: 50px; /* Logo genişliği */
+  height: 50px; /* Logo yüksekliği */
+  border-radius: 50%; /* Yuvarlak bir logo oluşturmak için */
+  margin-right: 10px; /* Logo ile diğer içerik arasındaki boşluk */
+}
+
+.nav-links {
+  list-style: none; /* Liste öğelerinin noktalı olmaması */
+  display: flex; /* Liste öğelerini yan yana düzenleme */
+}
+
+.nav-link {
+  margin-right: 15px; /* Her liste öğesi arasındaki boşluk */
+  text-decoration: none; /* Link altını çizme kaldırma */
+  color: #fff; /* Link rengi */
+  font-weight: bold; /* Kalın metin stilini belirleme */
+  font-size: 16px; /* Metin boyutu */
+}
+
+.nav-link:hover {
+  color: #ffcc00; /* Fare üzerine gelindiğinde link rengini değiştirme */
+}
