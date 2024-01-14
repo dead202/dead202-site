@@ -1,17 +1,17 @@
-import { ConnectButton } from "@rainbow-me/rainbowkit";
-import styles from "./Navbar.module.css"; // Navbar bileşenine ait stil dosyasının doğru şekilde içe aktarıldığından emin olun
+// Navbar.jsx
+import React from 'react';
+import styles from './Navbar.module.css'; // Stil dosyasını import et
+import logo from './HD - Logo - PNG.png'; // Logo dosyasını import et
 
-export default function Navbar() {
-	return (
-		<nav className={styles.navbar}>
-			<a href="https://dead202.netlify.app" target="_blank" rel="noopener noreferrer">
-				<img
-					src="/components/navigation/HD - Logo - PNG.png" // Logo dosyasının yolunu doğru şekilde ayarlayın
-					alt="" // Alt metni (alternate text) ekleyin
-					className="baslik-stili" // Başlık için doğru sınıf adını (class name) ekleyin
-				/>
-			</a>
-			<ConnectButton />
-		</nav>
-	);
-}
+const Navbar = () => {
+  return (
+    <nav className={styles.navbar}>
+      <a href="/">
+        <img className={styles.logo} src={logo} alt="Logo" /> {/* Logo'yu burada kullanın */}
+      </a>
+      {/* Diğer Navbar öğeleri buraya eklenebilir */}
+    </nav>
+  );
+};
+
+export default Navbar;
