@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <a href="/">
-        <img className={styles.logo} src={logo} alt="Logo" /> {/* Logo'yu burada kullanın */}
+        <img className={styles.logo} src={logo} alt="Logo" />
       </a>
       {/* Diğer Navbar öğeleri buraya eklenebilir */}
     </nav>
